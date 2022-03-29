@@ -1,0 +1,47 @@
+@import '../../styles/colors.scss';
+
+.NavBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 5em;
+    background-color: transparent;
+    box-shadow: none;
+    transition: all 0.5s;
+}
+
+.NavBar.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 5em;
+    background-color: white;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.13);
+}
+
+.logo {
+    position: absolute;
+    max-width: 6em;
+    max-height: 6em;
+    left: 0;
+    margin-left: 4em;
+    top: 0.5em;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+    .NavBar,
+    .NavBar.active {
+        justify-content: space-evenly;
+    }
+    .logo {
+        margin-left: 0;
+    }
+}

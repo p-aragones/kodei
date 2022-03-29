@@ -1,0 +1,61 @@
+{
+    "kodei": "kodei",
+    "lorem": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis repellendus temporibus exercitationem. Quas est fugiat eum. Aspernatur alias nisi eaque amet sint, maxime culpa, animi enim provident reprehenderit, cupiditate quod.",
+    "pricing": {
+        "design": "DISSEÑO",
+        "simple": "SIMPLE",
+        "standard": "ESTANDARD",
+        "custom": "A MEDIDA",
+        "simple_desc": "Diseño simple con componentes estandarizados, ideal para pequeños negocios.",
+        "standard_desc": "Combinación de componentes estandarizados y personalizados para separar tu página de las demas.",
+        "custom_desc": "Completo control sobre el diseño de la página web, para aquellos que quieren ser únicos."
+    },
+    "navbar": {
+        "pages": {
+            "home": "Inicio",
+            "contact": "Contacto",
+            "about": "Sobre Nosotros"
+        }
+    },
+    "home": {
+        "title": "INICIO"
+    },
+    "contact": {
+        "title": "CONTACTO",
+        "name": "Nombre",
+        "email": "Correo",
+        "message": "Mensaje",
+        "submit": "Enviar"
+    },
+    "about": {
+        "title": "SOBRE NOSOTROS"
+    },
+    "footer": {
+        "column": {
+            "1": {
+                "title": "Columna 1",
+                "item": {
+                    "1": "item 1",
+                    "2": "item 2",
+                    "3": "item 3"
+                }
+            },
+            "2": {
+                "title": "Columna 2",
+                "item": {
+                    "1": "item 1",
+                    "2": "item 2",
+                    "3": "item 3"
+                }
+            },
+            "3": {
+                "title": "Columna 3",
+                "item": {
+                    "1": "item 1",
+                    "2": "item 2",
+                    "3": "item 3"
+                }
+            }
+        }
+    }
+}

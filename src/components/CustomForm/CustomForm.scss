@@ -1,0 +1,33 @@
+@import "../../styles/all.scss";
+
+.customForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-message {
+        resize: none;
+        font-family: $workSans;
+        font-size: small;
+        margin-bottom: 1em;
+        border: 1px solid gray;
+        border-radius: 0.3em;
+        min-height: 1.5em;
+        padding: 0.5em;
+        max-width: 20em;
+    }
+    &-submit {
+        color: $dark-gray;
+        font-weight: 800;
+        background-color: $highlight;
+        cursor: pointer;
+        border-radius: 0.5em;
+        border: none;
+        width: 10em;
+        height: 2.5em;
+        transition: all 0.5s;
+        &:hover {
+            background-color: $dark-gray;
+            color: white;
+        }
+    }
+}

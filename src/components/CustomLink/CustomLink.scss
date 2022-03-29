@@ -1,0 +1,30 @@
+@import '../../styles/colors.scss';
+
+.CustomLink {
+    text-decoration: none;
+    color: $dark-gray;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    display: inline-block;
+    position: relative;
+}
+
+.CustomLink:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $highlight;
+    transform-origin: center; //direction
+    transition: transform 0.25s ease-out;
+}
+
+.CustomLink:hover:after {
+    transform: scaleX(1);
+    transform-origin: center; //direction
+}

@@ -1,0 +1,12 @@
+@import '../../styles/colors.scss';
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 5em;
+    &-title {
+        text-align: center;
+    }
+}

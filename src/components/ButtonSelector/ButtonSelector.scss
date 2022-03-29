@@ -1,0 +1,59 @@
+@import '../../styles/all.scss';
+
+.ButtonSelector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.buttonGroup {
+    display: flex;
+    align-items: center;
+}
+
+.radio {
+    &__input {
+        display: none;
+    }
+    &__label {
+        cursor: pointer;
+        font-weight: bold;
+        border: 0;
+        margin: 0.5em;
+        padding: 1.5em 4em;
+        min-width: 1000px;
+        border-radius: 0.3em;
+        box-shadow: rgb(0 0 0 / 8%) 0px 0px 17px;
+        transition: all 0.5s;
+    }
+}
+
+.radio__input:hover + .radio__label {
+    padding: 2em 4.5em;
+}
+
+.radio__input:checked + .radio__label {
+    background-color: $highlight;
+}
+
+.selectorResult {
+    max-width: 40em;
+    margin: 3em 0;
+    &-pricetag {
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 600px) {
+    .buttonGroup {
+        flex-direction: column;
+    }
+    .selector-input {
+        margin: 2em 0;
+    }
+    .selectorResult {
+        margin: 1em 1em;
+    }
+}

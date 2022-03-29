@@ -1,0 +1,46 @@
+@import '../../../styles/all.scss';
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    &-title {
+        font-style: italic;
+        font-size: 7em;
+        margin-bottom: 0.2em;
+    }
+    &-subtitle {
+        font-size: 3em;
+        margin: 0;
+    }
+    &-body {
+        font-size: 1.3em;
+        max-width: 50em;
+    }
+    &-left {
+        margin-top: 7em;
+        margin-left: 7em;
+    }
+    &-img{ 
+        max-width: 60em;
+        max-height: 60em;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        flex-direction: column;
+        &-img {
+            display: none;
+        }
+        &-left {
+            margin: 0;
+            margin-top: 4em;
+        }
+        &-title {
+            margin-left: 0.15em;
+        }
+        &-body {
+            margin: 1em 0.75em;
+        }
+    }
+}

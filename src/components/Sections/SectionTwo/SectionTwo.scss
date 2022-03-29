@@ -1,0 +1,49 @@
+@import "../../../styles/all.scss";
+
+.sectionTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    &-row {
+        display: flex;
+        align-items: center;
+    }
+    &-title {
+        text-align: left;
+    }
+    &-body {
+        text-align: left;
+        margin: 0;
+        max-width: 70em;
+        max-height: 30em;
+        font-family: $workSans;
+        font-weight: 500;
+    }
+    &-img {
+        max-width: 20em;
+        max-height: 20em;
+    }
+}
+
+@media (max-width: 600px) {
+    .sectionTwo {
+        flex-direction: column;
+        &-row {
+            flex-direction: column;
+        }
+        &-title {
+            text-align: center;
+            margin-left: 0.5em;
+            margin-right: 0.5em;
+        }
+        &-body {
+            text-align: center;
+            margin-left: 0.5em;
+            margin-right: 0.5em;
+            margin-bottom: 1em;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@import '../../styles/all.scss';
+
+.customButton {
+    font-weight: bold;
+    background-color: $highlight;
+    border-radius: 0.5em;
+    min-width: 10em;
+    min-height: 3em;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.customButton:hover {
+    background-color: $dark-gray;
+    color: white;
+}

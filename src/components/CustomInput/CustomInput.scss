@@ -1,0 +1,12 @@
+@import "../../styles/all.scss";
+
+.customInput {
+    font-family: $workSans;
+    font-size: small;
+    margin-bottom: 1em;
+    border: 1px solid gray;
+    border-radius: 0.3em;
+    min-height: 1.5em;
+    width: 20em;
+    padding: 0.5em;
+}

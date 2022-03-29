@@ -1,0 +1,72 @@
+{
+    "kodei": "kodei",
+    "lorem": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis repellendus temporibus exercitationem. Quas est fugiat eum. Aspernatur alias nisi eaque amet sint, maxime culpa, animi enim provident reprehenderit, cupiditate quod.",
+    "pricing": {
+        "design": "DESIGN",
+        "simple": "SIMPLE",
+        "standard": "STANDARD",
+        "custom": "CUSTOM",
+        "simple_desc": "Simple design with standarized components, ideal for small businesses.",
+        "standard_desc": "Combination of standarized components and custom ones to separate your business from the rest.",
+        "custom_desc": "Complete control on the website's design, for those who want to be unique."
+    },
+    "navbar": {
+        "pages": {
+            "home": "Home",
+            "services": "Services",
+            "contact": "Contact",
+            "about": "About"
+        }
+    },
+    "home": {
+        "title": "HOME",
+        "hero": {
+            "subtitle": "Digitalizing your business,",
+            "body": "because the future will be digital, or it <strong>won't</strong> be.",
+            "cta": "digitalize"
+        },
+        "services": {
+            "title": "Our Services",
+            "body": "We deliver <strong>professional</strong>, <strong>scalable</strong> and <strong>high quality</strong> websites and applications to enable <strong>growth</strong>, client <strong>retention</strong> and <strong>satisfaction</strong>",
+            "button": "discover our services"
+        }
+    },
+    "contact": {
+        "title": "CONTACT",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Send"
+    },
+    "about": {
+        "title": "ABOUT"
+    },
+    "footer": {
+        "column": {
+            "1": {
+                "title": "Column 1",
+                "item": {
+                    "1": "item 1",
+                    "2": "item 2",
+                    "3": "item 3"
+                }
+            },
+            "2": {
+                "title": "Column 2",
+                "item": {
+                    "1": "item 1",
+                    "2": "item 2",
+                    "3": "item 3"
+                }
+            },
+            "3": {
+                "title": "Column 3",
+                "item": {
+                    "1": "item 1",
+                    "2": "item 2",
+                    "3": "item 3"
+                }
+            }
+        }
+    }
+}

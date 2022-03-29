@@ -1,0 +1,58 @@
+@import '../../styles/colors.scss';
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: $light-gray;
+    min-width: 100%;
+    min-height: 12em;
+    margin-top: auto;
+    &-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: fit-content;
+        margin-right: 2em;
+    }
+    &-socials {
+        display: flex;
+        flex-direction: column;
+        margin-right: 2em;
+        align-items: center;
+        justify-content: center;
+    }
+    &-title {
+        margin: 0;
+    }
+    &-items {
+        list-style-type: none;
+        padding-left: 1em;
+        margin: 0;
+    }
+}
+
+.footer-logo {
+    width: 12em;
+    height: 12em;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        &-socials {
+            flex-direction: row;
+            margin: -1.5em 0 0 0;
+            a {
+                margin: 0 0.7em;
+            }
+        }
+        &-column {
+            margin: 0.5em 0;
+            text-align: center
+        }
+        &-items {
+            padding: 0;
+        }
+    }
+}

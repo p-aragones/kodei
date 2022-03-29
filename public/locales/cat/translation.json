@@ -1,0 +1,61 @@
+{
+    "kodei": "kodei",
+    "lorem": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis repellendus temporibus exercitationem. Quas est fugiat eum. Aspernatur alias nisi eaque amet sint, maxime culpa, animi enim provident reprehenderit, cupiditate quod.",
+    "pricing": {
+        "design": "DISSENY",
+        "simple": "SIMPLE",
+        "standard": "ESTANDARD",
+        "custom": "A MIDA",
+        "simple_desc": "Disseny simple amb components estandaritzats, ideal per petits negocis.",
+        "standard_desc": "Combinació de components estandaritzats i personalitzats per separar la teva pàgina de les demés.",
+        "custom_desc": "Complet control sobre la customització de la pàgina web, per a aquells que volen ser únics."
+    },
+    "navbar": {
+        "pages": {
+            "home": "Inici",
+            "contact": "Contacte",
+            "about": "Sobre Nosaltres"
+        }
+    },
+    "home": {
+        "title": "INICI"
+    },
+    "contact": {
+        "title": "CONTACTE",
+        "name": "Nom",
+        "email": "Correu",
+        "message": "Missatge",
+        "submit": "Enviar"
+    },
+    "about": {
+        "title": "SOBRE NOSALTRES"
+    },
+    "footer": {
+        "column": {
+            "1": {
+                "title": "Columna 1",
+                "item": {
+                    "1": "item 1",
+                    "2": "item 2",
+                    "3": "item 3"
+                }
+            },
+            "2": {
+                "title": "Columna 2",
+                "item": {
+                    "1": "item 1",
+                    "2": "item 2",
+                    "3": "item 3"
+                }
+            },
+            "3": {
+                "title": "Columna 3",
+                "item": {
+                    "1": "item 1",
+                    "2": "item 2",
+                    "3": "item 3"
+                }
+            }
+        }
+    }
+}
