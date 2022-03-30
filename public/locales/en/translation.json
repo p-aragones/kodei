@@ -31,6 +31,10 @@
             "button": "discover our services"
         }
     },
+    "services": {
+        "website": "website",
+        "mobile": "mobile app"
+    },
     "contact": {
         "title": "CONTACT",
         "name": "Name",

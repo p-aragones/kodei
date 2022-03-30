@@ -11,6 +11,7 @@
     background-color: transparent;
     box-shadow: none;
     transition: all 0.5s;
+    z-index: 999;
 }
 
 .NavBar.active {
