@@ -15,8 +15,12 @@
             "home": "Home",
             "services": "Services",
             "contact": "Contact",
-            "about": "About"
+            "about": "About",
+            "order": "Order"
         }
+    },
+    "order": {
+        "lang": "select language"
     },
     "home": {
         "title": "HOME",

@@ -4,6 +4,7 @@ import NavBar from './components/NavBar/NavBar';
 import Home from './pages/Home/Home';
 import Contact from './pages/Contact/Contact';
 import About from './pages/About/About';
+import Order from './pages/Order/Order';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
@@ -45,6 +46,7 @@ function App() {
               <Route exact path="/services" element={<Services/>}/>
               <Route exact path="/contact" element={<Contact/>}/>
               <Route exact path="/about" element={<About/>}/>
+              <Route exact path="/order" element={<Order/>}/>
             </Routes>
             <Footer/>
           </Router>

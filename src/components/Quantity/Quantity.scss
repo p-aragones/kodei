@@ -1,0 +1,25 @@
+@import '../../styles/colors.scss';
+
+.quantity {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 65vw;
+    &-add {
+        font-weight: bold;
+        border: none;
+        width: 2em;
+        height: 2em;
+        border-radius: 100em;
+    }
+    &-decrease {
+        font-weight: bold;
+        border: none;
+        width: 2em;
+        height: 2em;
+        border-radius: 100em;
+    }
+    &-text {
+        margin: 0 0.5em;
+    }
+}

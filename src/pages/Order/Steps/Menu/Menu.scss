@@ -1,0 +1,37 @@
+@import '../../../../styles/all.scss';
+
+.menu {
+    margin-top: 2em;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &-total {
+        margin-bottom: 0;
+    }
+    &-buttons {
+        margin-top: 2em;
+        display: flex;
+        justify-content: space-between;
+    }
+    &-next {
+        border: none;
+        background-color: $highlight;
+        border-radius: 5px;
+        width: 5em;
+        height: 2em;
+        font-weight: bold;
+    }
+    &-back {
+        border: none;
+        background-color: $highlight;
+        border-radius: 5px;
+        width: 5em;
+        height: 2em;
+        font-weight: bold;
+    }
+    &-price {
+        display: flex;
+        justify-content: space-between;
+    }
+}

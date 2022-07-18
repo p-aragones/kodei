@@ -34,6 +34,7 @@ const NavBar = () => {
           <CustomLink link="/services">{t('navbar.pages.services')}</CustomLink>
           <CustomLink link="/contact">{t('navbar.pages.contact')}</CustomLink>
           <CustomLink link="/about">{t('navbar.pages.about')}</CustomLink>
+          <CustomLink link="/order">{t('navbar.pages.order')}</CustomLink>
         </div>
         <LangSwitcher/>
     </nav>

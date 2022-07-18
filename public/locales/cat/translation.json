@@ -13,9 +13,14 @@
     "navbar": {
         "pages": {
             "home": "Inici",
+            "services": "Serveis",
             "contact": "Contacte",
-            "about": "Sobre Nosaltres"
+            "about": "Nosaltres",
+            "order": "Demana"
         }
+    },
+    "order": {
+        "lang": "selecciona idioma"
     },
     "home": {
         "title": "INICI"
